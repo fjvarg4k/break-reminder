@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Break Remninder",
+  "description": "Reminds you to take a break every once in a while",
+  "version": "1.0.0",
+  "icons": {
+    "16": "./images/break_icon_16.png",
+    "48": "./images/break_icon_48.png",
+    "128": "./images/break_icon_128.png"
+  },
+  "browser_action": {
+    "default_icon": "./images/break_icon.png",
+    "default_poup": "popup.html"
+  },
+  "permissions": ["activeTab"]
+}
